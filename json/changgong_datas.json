@@ -1,0 +1,21 @@
+{
+    "success": true,
+    "errors": null,
+    "data": 
+    {
+        "facebook": "https://www.facebook.com/ibkchanggong2017/",
+        "instagram": "https://www.instagram.com/ibk.changgong/",
+        "blog": "https://blog.naver.com/ibkchanggong2017",
+        "kakao": "https://pf.kakao.com/_QxiFxoC",
+        "utube_live": "https://www.youtube.com/channel/UCmL29-PphyIUxJgbZFG-zUQ",
+        "homepage": "https://www.ibkchanggong.com/cmm/main.do",
+        "reception": "./datas/changgong/changgong_ir.pdf",
+        "webinar":"https://event-us.kr/ibkchanggong/event/38567",
+        "video_big_thumbnail":"./datas/changgong/1_video_big.jpg",
+        "video_big_url":"https://youtu.be/q8_SL54e5gg",
+        "video_side_thumbnail": "./datas/changgong/1_video_side.jpg",
+        "video_side_url": "https://youtu.be/4iRWhRDKaUE",
+        "video_bamboo_thumbnail": "./datas/changgong/1_video_bamboo.jpg",
+        "video_bamboo_url": "https://youtu.be/0IWj8DzERhA"
+    }
+}

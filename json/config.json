@@ -1,0 +1,4 @@
+{
+	"MULTI_SERVER_URL": "ws://10.10.13.119",
+    "MULTI_SERVER_PORT": 4000
+}
