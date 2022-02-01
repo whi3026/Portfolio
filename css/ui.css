@@ -1,0 +1,231 @@
+/**********************************************************
+
+                    Common UI style sheet
+
+***********************************************************/
+
+
+body {
+  -ms-user-select: none; 
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+    
+  /* 멀티터치 금지 */
+  touch-action: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+
+
+/* scroll option */
+*::-webkit-scrollbar {
+    width: 5px;
+    transition: scroll 0.5 ease;
+  }
+  
+*::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(25, 147, 147, 0);
+  }
+  *:hover::-webkit-scrollbar-track {
+    background-color: rgba(25, 147, 147, 0.1);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(25, 147, 147, 0);
+  }
+
+  *:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(25, 147, 147, 0.2);
+  }
+
+
+
+
+
+
+
+/* border option */
+
+.border-black {
+    border: 1px solid black;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+.border-blue {
+    border: 1px solid blue;
+}
+
+.border-white {
+    border: 1px solid #fff;
+}
+
+
+
+
+
+
+/*
+    header
+*/
+
+header {
+    /* width: 100%; */
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    margin: auto;
+    /* padding: 30px 0px; */
+    box-sizing: border-box;
+
+    z-index: 10;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    /* pointer-events: none; */
+}
+
+@media screen and (max-width:640px) {
+    header {
+        top: 15px;
+        right: 15px;
+    }
+}
+
+/*
+    section
+*/
+section {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    /* z-index: 10; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*
+    footer
+*/
+footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+/*
+    ui layout
+*/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-direction-row {
+    flex-flow: row;
+}
+.flex-direction-column {
+    flex-flow: column;
+}
+
+.flex-between {
+    justify-content:space-between;
+}
+
+
+
+
+
+
+
+
+/*
+    ui design
+
+    sqs-block-content > sqs-block-child 
+
+*/
+
+
+
+.sqs-block-content {
+    display: flex;
+    align-items: center;
+}
+
+.sqs-block-child {
+    padding: 10px 0px;
+}
+
+@media screen and (max-width:640px) {
+    .sqs-block-child {
+        padding: 5px 0px;
+    }
+}
+
+
+
+
+/*
+    text option
+*/
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
