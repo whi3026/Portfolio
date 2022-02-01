@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.f97cb816.chunk.css",
-    "main.js": "/static/js/main.71156b93.chunk.js",
-    "main.js.map": "/static/js/main.71156b93.chunk.js.map",
+    "main.js": "/static/js/main.a73b7d11.chunk.js",
+    "main.js.map": "/static/js/main.a73b7d11.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.44da4157.js",
     "runtime-main.js.map": "/static/js/runtime-main.44da4157.js.map",
-    "static/js/2.91cc0f06.chunk.js": "/static/js/2.91cc0f06.chunk.js",
-    "static/js/2.91cc0f06.chunk.js.map": "/static/js/2.91cc0f06.chunk.js.map",
+    "static/js/2.ac480c1c.chunk.js": "/static/js/2.ac480c1c.chunk.js",
+    "static/js/2.ac480c1c.chunk.js.map": "/static/js/2.ac480c1c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.f97cb816.chunk.css.map": "/static/css/main.f97cb816.chunk.css.map",
-    "static/js/2.91cc0f06.chunk.js.LICENSE.txt": "/static/js/2.91cc0f06.chunk.js.LICENSE.txt",
+    "static/js/2.ac480c1c.chunk.js.LICENSE.txt": "/static/js/2.ac480c1c.chunk.js.LICENSE.txt",
     "static/media/font.css": "/static/media/SpoqaHanSansNeo-Regular.452bf157.woff2",
     "static/media/UNIT_logo.17b4286d.png": "/static/media/UNIT_logo.17b4286d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.44da4157.js",
-    "static/js/2.91cc0f06.chunk.js",
+    "static/js/2.ac480c1c.chunk.js",
     "static/css/main.f97cb816.chunk.css",
-    "static/js/main.71156b93.chunk.js"
+    "static/js/main.a73b7d11.chunk.js"
   ]
 }
